@@ -39,3 +39,24 @@ background-size: 500px;
 background-color: lightblue;
 }
 
+
+
+
+@media (min-width:50px) and (max-width:767px){
+
+ul_1 {
+column-count: 10;
+column-rule: dotted 1px #333; /* Optional: adds a dotted line between columns */
+list-style-type: none; /* Optional: removes the default list bullets */
+}
+}
+
+
+@media (min-width:767px){
+
+ul_2 {
+column-count: 30;
+column-rule: dotted 1px #333; /* Optional: adds a dotted line between columns */
+list-style-type: none; /* Optional: removes the default list bullets */
+}
+}
