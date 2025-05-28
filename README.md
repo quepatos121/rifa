@@ -1,0 +1,1 @@
+rifa de un cuadro
