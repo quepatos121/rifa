@@ -35,25 +35,24 @@ body {
 .container {
 background-image:"cuadrorifa.jpg";
 background-repeat: repeat;}
-columns:2;
 }
 
 
 
 
-
-ul {
-
 @media (min-width:50px) and (max-width:767px){
 
+ul {
 column-count: 10;
 column-rule: dotted 1px #333; /* Optional: adds a dotted line between columns */
 list-style-type: none; /* Optional: removes the default list bullets */
+}
 }
 
 
 @media (min-width:767px){
 
+ul {
 column-count: 30;
 column-rule: dotted 1px #333; /* Optional: adds a dotted line between columns */
 list-style-type: none; /* Optional: removes the default list bullets */
