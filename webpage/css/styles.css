@@ -16,7 +16,8 @@ body {
 
 
 .nav-item{
-  background-color: lightblue;
+  background-color: orangered;
+  color:orangered;
   text-align: center;
   border: 1px solid black;
 }
@@ -30,3 +31,6 @@ body {
   margin-top: 50px;
   margin:50px;
 }
+
+
+
