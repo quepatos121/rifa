@@ -34,7 +34,8 @@ body {
 
 .container {
 background-image:"cuadrorifa.jpg";
-background-repeat: repeat;
+background-repeat: repeat;}
+columns: 2;
 }
 
 
