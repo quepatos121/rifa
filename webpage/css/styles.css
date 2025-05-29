@@ -33,14 +33,12 @@ body {
 }
 
 .container {
-background-image:"cuadrorifa.jpg";
-background-repeat: repeat;}
+display: flex;
+justify-content: center;
 }
 
 
 
 img {
-  display: block;
-  margin: auto;
   width: 50%;
 }
