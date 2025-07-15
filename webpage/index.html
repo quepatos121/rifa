@@ -28,6 +28,17 @@ column-rule: dotted 1px #333; /* Optional: adds a dotted line between columns */
 list-style-type: none; /* Optional: removes the default list bullets */
 }
 }
+
+#navigation li:before {
+  content: "|";
+  color: black;
+}
+
+#navigation li:after {
+  content: "|";
+  color: #F2659A;
+}
+
 </style>
 
 <body>
@@ -61,7 +72,10 @@ Números ya seleccionados en verde.
  <li style="color:rgb(0, 200, 150);"> 002 </li>
  <li style="color:rgb(0, 200, 150);"> 003 </li>
  <li style="color:rgb(0, 200, 150);"> 004 </li>
- <li> 005 <basefont style="color:rgb(0, 200, 150);" > (000)</basefont> </li> 
+
+ <li> 005 | (000) </li> 
+
+
  <li style="color:rgb(0, 200, 150);"> 006 </li>
  <li style="color:rgb(0, 200, 150);"> 007 </li>
  <li> 008(000) </li>
